@@ -25,7 +25,12 @@ body {
 		transform: translate(-50%);}
 	#baniere {display: flex; justify-content: center; padding-top: 3em; padding-bottom: 5em; max-width: 100%; height: auto;}
 	#pied {height: 100vh; background-color: #000000; margin: -10px;}
-	#pied {font-family: "Saira Stencil", sans-serif; font-optical-sizing: auto; font-weight: <weight>; font-style: normal; font-variation-settings: "wdth" 100;}
+	#pied {font-family: "Saira Stencil", sans-serif; font-optical-sizing: auto; font-weight: <weight>; font-style: normal; font-variation-settings: "wdth" 100; line-height: 01;}
+	.zoom {font-size: 40px; transition: font-size 0.3s ease;}
+	.zoom:hover {font-size: 50px;}
+	.imgzoom {width: 75px; transition: width 0.3s ease;}
+	.imgzoom:hover {width: 85px;}
+
 
 </style>
 </head>
@@ -55,10 +60,34 @@ body {
     </ul></li>
   </ul>
 </div>
-<a href="Projet-entreprise.html"><img src="Images logo/Logo-nozama-simple.png" width="50" alt=""/></a></div>
-	<div id="baniere"><img src="La bananière_AME/Banière_2.gif" width="1500px" style="border-radius: 20px; border: 5px solid;" alt="Rounded Image"></div>
-	<div id="pied" style="color: #FFFFFF; font-size: 50px"><b>test</b></div>
+<a href="index.html"><img src="Logo-nozama-simple.png" width="50" alt=""/></a></div>
+	<div id="baniere"><img src="Banière_2.gif" width="1500px" style="border-radius: 20px; border: 5px solid;" alt="Rounded Image"></div>
+	<div id="pied"><table width="100%" align="center">
+  <tbody style="color: white;">
+    <tr>
+      <td style="padding: 50px; font-size: 50px" align="center"><b>SUPPORT</b></td>
+      <td style="padding: 50px; font-size: 50px" align="center"><b>À PROPOS DE NOUS</b></td>
+      <td style="padding: 50px; font-size: 50px" align="center"><b>SUIVEZ-NOUS</b></td>
+    </tr>
+    <tr>
+      <td align="center" class="zoom">Aide</td>
+      <td align="center" class="zoom">Qui sommes-nous?</td>
+      <td align="center" style="font-size: 40px"></td>
+    </tr>
+    <tr>
+      <td align="center" class="zoom">Retours et <br> échanges</td>
+      <td align="center" class="zoom">Nos engagements</td>
+      <td align="center" style="font-size: 40px"><a href="https://www.facebook.com"><img src="Facebook.png" class="imgzoom"/></a>     <a href="https://instagram.com"><img src="Instagram.png" class="imgzoom"/></a>     <a href="https://twitter.com"><img src="Twitter.png" class="imgzoom"/></a><br><a href="https://tiktok.com"><img src="Tiktok.png" class="imgzoom"/></a>     <a href="https://pinterest.com"><img src="Pinterest.png" class="imgzoom"/></a>     <a href="https://youtube.com"><img src="Youtube.png" class="imgzoom"/></a></td>
+    </tr>
+	 <tr>
+      <td align="center" class="zoom">Contactez-<br>nous</td>
+      <td align="center" class="zoom">Nos valeurs</td>
+      <td align="center" style="font-size: 40px"></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 </body>
 </html>
 
-bannière resize, pied-de-page automatique, bordure menu déroulant (juste bas courbé, box shadow pour pas décaler), nouveau google font
+bannière resize, pied-de-page automatique, bordure menu déroulant (juste bas courbé, box shadow pour pas décaler), nouveau google font, github (https://breezebroo.github.io/Projet-Entreprise/index.html)
